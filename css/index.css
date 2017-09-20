@@ -1,0 +1,23 @@
+
+#logo{
+    margin: 20px auto;
+}
+#south{
+    float:right;
+    width:40%;
+    margin: 5px auto;
+    
+}
+nav {
+    font-variant:small-caps;
+    font-size: 20pt;
+    }
+.gallery img{
+    width:19%;
+    
+}
+.delivery img{
+     float:left;
+    width:50%;
+    
+}
