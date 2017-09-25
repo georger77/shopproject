@@ -63,7 +63,8 @@ header {
 body {
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url(/css/back.jpg);
+    background:#7591f4;
+    /*background-image: url(/css/back.jpg);*/
     background-size: 100% 100%;
 }
 
