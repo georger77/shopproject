@@ -3,16 +3,6 @@
     width: 50%;
 }
 
-/*#south{*/
-
-/*float:right;*/
-
-/*    width:40%;*/
-
-/*    margin: 5px auto;*/
-
-/*}*/
-
 nav {
     font-variant: small-caps;
     font-size: 20pt;
@@ -22,8 +12,6 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-   
-
 }
 
 .navigation {
@@ -37,7 +25,6 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
 }
 
 
@@ -57,9 +44,6 @@ nav {
 .header-block2 {
     width: 50%;
     font-size: 30px;
-    /*border:10px solid black;*/
-    /*border-color: #F3F3F3 #BBB #BBB #F3F3F3;*/
-    /*border-radius: 10px;*/
 }
 
 .information {
@@ -71,27 +55,26 @@ nav {
 
 header {
     margin: 0 auto;
-    /*background:grey;*/
     border: 3px solid black;
     border-color: #F3F3F3 #BBB #BBB #F3F3F3;
-
     border-radius: 10px;
 }
 
 body {
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url(/img/back.jpg);
-    /*background-repeat: no-repeat;*/
+    background-image: url(img/back.jpg);
     background-size: 100% 100%;
-
 }
-#contact{ border: 3px solid white;
+
+#contact {
+    border: 3px solid white;
     border-color: #F3F3F3 #BBB #BBB #F3F3F3;
     border-radius: 10px;
-    width:100%;
+    width: 100%;
     font-size: 30px;
 }
+
 .payment,
 .delivery,
 .warranty,
@@ -102,7 +85,6 @@ body {
     border: 3px solid black;
     border-color: #F3F3F3 #BBB #BBB #F3F3F3;
     border-radius: 10px;
-
 }
 
 .south {
@@ -112,8 +94,8 @@ body {
 }
 
 .gallery {
-  width: 33%;
-     min-width: 300px;
+    width: 33%;
+    min-width: 300px;
     min-height: 150px;
     /*width:350px;*/
     height: 300px;
@@ -131,7 +113,6 @@ body {
 
 .navigation p:hover {
     border: 3px solid grey;
-
 }
 
 form {
