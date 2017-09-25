@@ -32,18 +32,22 @@ nav {
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
+    justify-content:space-between;
 }
 
 .header-block1,
 .header-block2 {
-    width: 40%;
+     font-size: 20pt;
+    width: 49%;
     min-width: 250px;
     min-height: 100px;
+    /*border: 3px solid black;*/
+    /*border-color: #F3F3F3 #BBB #BBB #F3F3F3;*/
+    /*border-radius: 10px;*/
+    
 }
-
-.header-block2 {
-    width: 50%;
-    font-size: 30px;
+#head{
+   font-size: 30pt; 
 }
 
 .information {
@@ -125,7 +129,7 @@ form {
 
 form p {
     font-variant: small-caps;
-    font-size: 20pt;
+    font-size: 30pt;
     width: 30%;
     min-width: 300px;
     min-height: 50px;
