@@ -1,62 +1,115 @@
 <!DOCTYPE html>
 <html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/index.css">
+
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <title>bosch-shop-ua</title>
 </head>
+
 <body>
     <header>
-        <a href="index.html"><img id="logo" src="/img/logo.png" alt="pages logo"></a><br>
-       <label>Поле для пошуку
-            <input id="search" type="text" name="search" placehol
-            der="Пошук">
-            </label>
+        <div class="header-container">
+            <p class="header-block1">
+                <img id="logo" src="/img/logo.png" alt="pages logo"><br>
+                <label>Поле для пошуку
+                <input id="search" type="text" name="search" placeholder="Пошук">
+                </label>
+            </p>
+            <p class="header-block2">Магазин-салон техніки<br>
+
+                <span id="contacts">Контактна інформація: м.Львів ТВК "Південний"
+            Київстар 0676752713 МТС 0509616934</span>
+            </p>
+        </div>
     </header>
-    <img id="south" src="/img/south.jpg" alt="trade center foto">
-    <nav>
-        
-        <ul id="navi">
-            <li><a href="#our-shop">Магазин</a></li>
-            <li><a href="#gallery">Галерея</a></li>
-            <li><a href="#warranty">Гарантія</a></li>
-            <li><a href="#pay">Оплата</a></li>
-            <li><a href="#delivery">Доставка</a></li>
-            <li><a href="#contacts">Контакти</a></li>
-        </ul>
+    <div class="start-gallery">
+        <img class="south" src="/img/fototechnika1.jpg" alt="foto equpment">
+        <img class="south" src="/img/south.jpg" alt="trade center foto">
+        <img class="south" src="/img/fototechnika2.jpg" alt="foto equpment">
+    </div>
+    <nav class="navigation">
+        <p><a href="#our-shop">Магазин</a></p>
+        <p><a href="#gallery">Галерея</a></p>
+        <p><a href="#warranty">Гарантія</a></p>
+        <p><a href="#payment">Оплата</a></p>
+        <p><a href="#delivery">Доставка</a></p>
+        <p><a href="#contact">Контакти</a></p>
+        <p><a href="#connect">Зворотній зв'язок</a></p>
     </nav>
+
     <main>
-        <h2>НАШ МАГАЗИН</h2>
-        <section id="our-shop">
-           <p> Магазин-салон працює в межах ТВК ,,Південний,, вже близько 15 років. 
-              Є одним з найбільших за площею та асортиментом в категорії
-              ,,ТВ-ПОБУТОВА-КУХОННА техніка,,Ми прагнемо надати Вам максимум корисної
-              інформації про  товари, що представленні у нас, та допомогти вибрати речі, 
-              які будуть вірно служити вам.Ми готові запропонувати 100% сумісні супутні 
-              товари, аксесуари і витратні матеріали.  </p> 
-        </section>
-        <h2 id="warranty">Гарантія</h2><br>
-        <section>
-           <p> Гарантія надається на всі товари від 1 року і обслуговування здійснюється
-           у сертифікованих сервісних центрах у м.Львові.  </p> 
-        </section>
-         <h2 id="gallery">Галерея</h2><br>
-        <section class="gallery">
-            <img src="/img/shop-photo1.jpg" alt="shops foto">  
-            <img src="/img/shop-photo2.jpg" alt="shops foto"> 
-             <img  src="/img/shop-photo3.jpg" alt="shops foto"> 
-               <img  src="/img/shop-photo6.jpg" alt="shops foto">
-                <img  src="/img/shop-photo5.jpg" alt="shops foto">
-        </section>
-         <h2 id="delivery">Доставка</h2><br>
-        <section class="delivery">
-            <img src="/img/delivery.jpg" alt="delivery">  
-            <p>Доставка здійснюється власною машиною магазину в день купівлі,
-            або в будь-який інший за домовленістю з клієнтом.</p>
-        </section>
+        <h2 id="gallery">Галерея</h2><br>
+        <div class="photo-gallery">
+            <img class="gallery" src="/img/shop-photo1.jpg" alt="shops foto">
+            <img class="gallery" src="/img/shop-photo2.jpg" alt="shops foto">
+            <img class="gallery" src="/img/shop-photo3.jpg" alt="shops foto">
+            <img class="gallery" src="/img/shop-photo4.jpg" alt="shops foto">
+            <img class="gallery" src="/img/shop-photo6.jpg" alt="shops foto">
+            <img class="gallery" src="/img/shop-photo5.jpg" alt="shops foto">
+        </div>
+        <div class="information">
+            <div class="our-shop">
+                <h2 id="our-shop">НАШ МАГАЗИН</h2>
+                <p> Магазин-салон працює в межах ТВК ,,Південний,, вже близько 15 років. Є одним з найбільших за площею та асортиментом в категорії ,,ТВ-ПОБУТОВА-КУХОННА техніка,,Ми прагнемо надати Вам максимум корисної інформації про товари, що представленні
+                    у нас, та допомогти вибрати речі, які будуть вірно служити вам.Ми готові запропонувати 100% сумісні супутні товари, аксесуари і витратні матеріали. </p>
+            </div>
+            <div class="warranty">
+                <h2 id="warranty">Гарантія</h2><br>
+                <div>
+                    <p>
+                        На товари в нашому магазині надається гарантія, яка підтверджує зобов'язання щодо відсутності в товарі заводських дефектів. Гарантія надається на термін від 2-х тижнів до 3 років залежно від сервісної політики виробника. Термін гарантії вказано в гарантійному
+                        талоні товару, який є підтвердженням гарантійних зобов'язань. Будь ласка, перевіряйте комплектність і відсутність дефектів у товарі під час його отримання (комплектність визначається описом виробу або посібником з його експлуатації).
+                        Гарантійне обслуговування надають сервісні центри, авторизовані виробниками. Адреси та телефони сервісних центрів ви можете знайти на гарантійному талоні. Право на безкоштовне гарантійне обслуговування дає гарантійний талон, у
+                        якому зазначено:
+                        <ul>
+                            <li>модель</li>
+                            <li>серійний номер</li>
+                            <li>гарантійний термін</li>
+                            <li>дата продажу товару</li>
+                        </ul>
+                        Будь ласка, зберігайте його впродовж усього терміну експлуатації. Термін ремонту визначається авторизованим СЦ.
+                    </p>
+                </div>
+            </div>
+            <div class="delivery">
+                <h2 id="delivery">Доставка</h2><br>
+                <img id="delivery-picture" src="/img/delivery.jpg" alt="delivery">
+                <p>Доставка здійснюється власною машиною магазину в день купівлі, або в будь-який інший за домовленістю з клієнтом.</p>
+            </div>
+            <div class="payment">
+                <h2 id="payment">Оплата</h2><br>
+                <img id="payment-picture" src="/img/pay.jpg" alt="payment">
+                <p>Оплата можлива готівкою або по перерахунку.</p>
+            </div>
+        </div>
+        <!--<span class="static">Наш телефон:0676752713</span>-->
     </main>
+    <footer>
+        <p id="contact">м.Львів ТВК "Південний" Торгівельний комплекс "Олімпік" магазин № 8<br>
+        Наш телефон:0676752713</p>
+        <form id="connect" method="POST" action="https://formspree.io/rezvanovgr@gmail.com">
+            <p><label>Ваші дані:
+            <input type="text" name="client-email"
+            placeholder="Ваші дані:"
+            required></p>
+       <p> <label>Email:
+            <input type="email" name="client-email"
+            placeholder="Your email"
+            required></p>
+       
+        <p><label>Ваш коментар:<br>
+            <textarea></textarea>
+        </label>
+                <br>
+                <input type="submit" value="SEND!!!">
+                <input type="reset"></p>
+        </form>
+    </footer>
 </body>
+
 </html>
