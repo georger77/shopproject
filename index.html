@@ -19,7 +19,7 @@
                 </p>
             </div>
             <div class="header-block-title-information"><span id="head">Магазин-салон техніки</span><br>
-                <span id="contacts" hidden>Контактна інформація: м.Львів ТВК "Південний"
+                <span id="contacts">Контактна інформація: м.Львів ТВК "Південний"
                     Київстар 0676752713 МТС 0509616934</span><br><br>
                 <p><a href="#search">Пошук</a></p>
             </div>
@@ -83,21 +83,26 @@
             </div>
         </div>
     </main>
+
     <footer>
         <p id="contact">м.Львів ТВК "Південний" Торгівельний комплекс "Олімпік" магазин № 8<br> Наш телефон:0676752713</p>
         <form id="connect" method="POST" action="https://formspree.io/rezvanovgr@gmail.com">
             <div><label>Ваші дані:
             <input type="text" name="client-email" placeholder="Ваші дані:" required></label></div>
-            <div> <label>Email: <input type="email" name="client-email" placeholder="Your email" required></label></div>
+            <div> <label>Email: <input type="email" name="client-email" placeholder="Ваша пошта" required></label></div>
             <div><label>Інформація для пошуку:<br>
             <textarea id="search" placeholder="Введіть сюди інформацію"></textarea>
         </label>
                 <br>
-                <input type="submit" value="SEND!!!">
+                <button type "submit" id="send-information">Відправити</button>
                 <input type="reset"></div>
         </form>
+        <p>Звіт про доставку повідомлення:<span id="answer"></span></p>
+        <p>АКТУАЛЬНІ АКЦІЇ:<span id="action"></span></p>
+        <button id="btn-promotion">АКЦІЯ</button>
+        <p>Page loaded at:<span id="page-loaded"></span></p>
     </footer>
-     <script src="js/index.js"></script>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
