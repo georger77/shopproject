@@ -44,11 +44,7 @@
     height: 20%;
 }
 
-/*.header-block-title-information p:hover {*/
 
-/*    border: 3px solid grey;*/
-
-/*}*/
 
 #logo {
     margin: 20px auto;
@@ -56,7 +52,7 @@
 }
 
 #search {
-    font-size: 20pt;
+    /*font-size: 15pt;*/
     background-color: white;
 }
 
@@ -107,14 +103,15 @@ header {
 body {
     max-width: 1200px;
     margin: 0 auto;
-    background-image: url(../img/fon3.jpg);
+    background:#e1f2e1;
+    /*background-image: url(../img/fon3.jpg);*/
     background-size: 100% 100%;
 }
 
 #contact {
-    border: 3px solid white;
-    border-color: #F3F3F3 #BBB #BBB #F3F3F3;
-    border-radius: 10px;
+    /*border: 3px solid white;*/
+    /*border-color: #F3F3F3 #BBB #BBB #F3F3F3;*/
+    /*border-radius: 10px;*/
     width: 100%;
     font-size: 30px;
 }
@@ -146,9 +143,7 @@ body {
     margin: 20px;
 }
 
-.static {
-    position: static;
-}
+
 
 .navigation p {
     border: 3px solid white;
@@ -160,26 +155,12 @@ body {
     border: 3px solid grey;
 }
 
-form {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
 
-form p {
-    font-variant: small-caps;
-    font-size: 30pt;
-    width: 30%;
-    min-width: 300px;
-    min-height: 50px;
-    border: 3px solid black;
-    border-color: #F3F3F3 #BBB #BBB #F3F3F3;
-    border-radius: 10px;
-}
 
 footer {
-    font-size: 30pt;
+    font-size: 20pt;
+    background:gainsboro;
+      margin: 40px;
 }
 
 #delivery-picture {
@@ -191,3 +172,36 @@ footer {
     width: 100%;
     min-height: 50px;
 }
+#name-email{ display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.client-name,.client-email{
+    font-size: 20pt;
+    width: 25%;
+    min-width: 250px;
+    min-height: 100px;
+    border: 3px solid black;
+    border-color: #F3F3F3 #BBB #BBB #F3F3F3;
+    border-radius: 10px;
+
+}    
+  #send-button
+  {
+      width:100px;
+      height:50px;
+  }  
+    
+    
+.search{
+    font-size: 20pt;
+    width: 47%;
+    min-width: 250px;
+    min-height: 100px;
+    border: 3px solid black;
+    border-color: #F3F3F3 #BBB #BBB #F3F3F3;
+    border-radius: 10px;
+
+}    

@@ -1,17 +1,17 @@
-setInterval(function() {
-    if (contacts.hidden) {contacts.hidden = false; 
-}else {
-    contacts.hidden = true;
-}
-},1000 );
+// setInterval(function() {
+//     if (action.hidden) {action.hidden = false; 
+// }else {
+//     action.hidden = true;
+// }
+// },300 );
 
 
 
 
 
-document.getElementById('page-loaded').innerHTML = (new Date()).toLocaleTimeString();
-document.getElementById('btn-promotion').addEventListener('click', checkPromotion);
-document.getElementById('send-information').addEventListener('click', answerForMessage);
+// document.getElementById('page-loaded').innerHTML = (new Date()).toLocaleTimeString();
+// document.getElementById('btn-promotion').addEventListener('click', checkPromotion);
+// document.getElementById('send-information').addEventListener('click', answerForMessage);
 
 function checkPromotion() {
     const xhr = new XMLHttpRequest();
